@@ -18,6 +18,9 @@ gem 'gibbon'
 gem 'payola-payments'
 gem 'sucker_punch'
 gem 'upmin-admin'
+gem 'backbone-on-rails'
+gem 'handlebars_assets'
+gem 'hamlbars'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

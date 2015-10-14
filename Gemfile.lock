@@ -42,6 +42,11 @@ GEM
     autoprefixer-rails (6.0.3)
       execjs
       json
+    backbone-on-rails (1.2.0.0)
+      eco
+      ejs
+      jquery-rails
+      railties
     bcrypt (3.1.10)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -84,6 +89,12 @@ GEM
     diff-lcs (1.2.5)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
+    ejs (1.1.1)
     erubis (2.7.0)
     execjs (2.6.0)
     factory_girl (4.5.0)
@@ -102,6 +113,16 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     haml (4.0.7)
+      tilt
+    hamlbars (2.1.1)
+      execjs (>= 1.2)
+      haml
+      sprockets (>= 2.0)
+      tilt
+    handlebars_assets (0.19.1)
+      execjs (>= 1.2.9)
+      multi_json
+      sprockets (>= 2.0.3)
       tilt
     hitimes (1.2.3)
     http-cookie (1.0.2)
@@ -269,6 +290,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  backbone-on-rails
   better_errors
   binding_of_caller
   bootstrap-sass
@@ -280,6 +302,8 @@ DEPENDENCIES
   factory_girl_rails
   faker
   gibbon
+  hamlbars
+  handlebars_assets
   hub
   jbuilder (~> 2.0)
   jquery-rails
